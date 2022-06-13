@@ -1,3 +1,6 @@
+// Problem link: https://www.codechef.com/submit-v2/F1RULE
+
+
 
 #include<stdio.h>
 #include<math.h>

@@ -1,6 +1,6 @@
+// Problem link: https://www.codechef.com/submit-v2/MANIPULATE
 
 #include<stdio.h>
-#include<math.h>
 int main ()
 {
     int t;
@@ -8,9 +8,10 @@ int main ()
     while (t--){
         int x,y;
         scanf("%d %d",&x,&y);
-        if (y<=(x*1.07)){
+        if (x>=y){
             printf("YES\n");
         }
+        
         else{
             printf("NO\n");
         }

@@ -1,6 +1,6 @@
+// Problem link: https://www.codechef.com/submit-v2/VOLCONTROL
 
 #include<stdio.h>
-#include<math.h>
 int main ()
 {
     int t;
@@ -8,11 +8,12 @@ int main ()
     while (t--){
         int x,y;
         scanf("%d %d",&x,&y);
-        if (y<=(x*1.07)){
-            printf("YES\n");
+        if (x<y){
+            printf("%d\n",y-x);
         }
+        
         else{
-            printf("NO\n");
+            printf("%d\n",x);
         }
     }
     return 0;
